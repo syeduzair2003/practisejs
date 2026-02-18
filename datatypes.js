@@ -38,3 +38,21 @@
 // console.log(typeof heros);
 // console.log(typeof myObj);
 // console.log(typeof myFunction);
+
+let nStr = "12345";
+let newStar = "*****";
+
+// console.log(nStr, newStar);
+
+for (let k = 5; k <= 1; k--){
+        let curNum = " ";
+        let curStar = " ";
+        for (let i = 0; i < k; i++){
+            curNum += nStr[i];
+        }
+        for (let j = 0; j < k; j++){
+            curStar += newStar[j];
+        }
+        console.log(curNum, curStar);
+
+    }
