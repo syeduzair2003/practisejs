@@ -85,5 +85,5 @@ function person(person_name, person_age, person_gender) {
 const person1 = new person("Uzair", 22 , "Male");
 const person2 = new person("Ali", 22 , "Male");
 
-console.log(person1);
-console.log(person2);
+// console.log(person1);
+// console.log(person2);

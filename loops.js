@@ -91,7 +91,7 @@ var cabs = ["careem", "uber", "bykea"];
 for (let i = 0; i < cabs.length; i++) {
     for (let j = i + 1; j < cabs.length; j++) {
         if (i !== j) {
-            console.log(`${cabs[i]} and ${cabs[j]} are good services`);
+            // console.log(`${cabs[i]} and ${cabs[j]} are good services`);
         }
     }
 }

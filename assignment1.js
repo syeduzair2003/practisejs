@@ -20,9 +20,9 @@ function isPalindrome(word) {
 
   return word === reversing;
 }
-console.log(isPalindrome("dad"));
-console.log(isPalindrome("madam"));
-console.log(isPalindrome("hello"));
+// console.log(isPalindrome("dad"));
+// console.log(isPalindrome("madam"));
+// console.log(isPalindrome("hello"));
 
 /*Question 3
 Filter out students which has the substring ‘an.’ So it will return an array consisting of those students
